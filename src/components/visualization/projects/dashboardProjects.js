@@ -10,16 +10,6 @@ class DashboardProjects extends Component {
     super();
     this.state = {};
   }
-  navigateToProject(status) {
-    const { fiscalYear } = this.props;
-    if (status === "total_projects") {
-      this.props.history.push(`/projects`);
-    } else {
-      this.props.history.push(
-        `/projects/?status=${status}&fiscal-year=${fiscalYear}`
-      );
-    }
-  }
   fragment = (selectedroad, localization) => {
     if (selectedroad === "all") return null;
 
@@ -36,7 +26,6 @@ class DashboardProjects extends Component {
     if (selectedLanguage === "en") {
       return (
         <span>
-          Click to view{" "}
           <strong style={{ textTransform: "uppercase" }}>
             {localization[key]} {projects}{" "}
           </strong>
@@ -82,7 +71,7 @@ class DashboardProjects extends Component {
         <div>
           {Object.keys(data).map(key => (
             <ProjectsMain
-              onClick={() => this.navigateToProject(key)}
+              onClick={() => {}}
               status={key}
               key={key}
               className="projects-block"
