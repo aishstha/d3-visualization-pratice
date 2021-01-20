@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M155.502,115.491 L154.708,115.491 L154.432,115.765 C155.407,116.902 156,118.376 156,119.991 C156,123.581 153.09,126.491 149.5,126.491 C145.91,126.491 143,123.581 143,119.991 C143,116.401 145.91,113.491 149.5,113.491 C151.115,113.491 152.588,114.083 153.725,115.057 L154.001,114.783 L154.001,113.991 L158.999,109 L160.49,110.491 L155.502,115.491 L155.502,115.491 Z M149.5,115.491 C147.014,115.491 145,117.505 145,119.991 C145,122.476 147.014,124.491 149.5,124.491 C151.985,124.491 154,122.476 154,119.991 C154,117.505 151.985,115.491 149.5,115.491 L149.5,115.491 Z" id="path-1"></path>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects_data" transform="translate(-143.000000, -109.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="search" fill="#ECC417" transform="translate(151.745000, 117.745500) scale(1, -1) translate(-151.745000, -117.745500) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
